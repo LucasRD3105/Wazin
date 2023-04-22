@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ajusteTotalMenu {
+    background-size: cover;
+    background-image: url(imagem\ de\ fundo.jpg);
+    background-position: top;
+    height: 250px;
+}
+
+.menuPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#fundoDoTitulo {
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    width: 300px;
+    height: 90px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px;
+    border-color: white;
+}
+
+#ajusteBotaoLogar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+#botaoLogin {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 130px;
+    opacity: 0.8;
+}
+
+#botaoLogin:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+#botaoLogin:active {
+    background-color: white;
+    opacity: 0.9;
+}
+
+#botaoInscreva-se {
+    margin-left: 40px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 130px;
+    opacity: 0.8;
+}
+
+#botaoInscreva-se:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+#botaoInscreva-se:active {
+    background-color: white;
+    opacity: 0.9;
+}
+
+#barraBuscar {
+    margin-top: 30px;
+    height: 40px;
+    width: 700px;
+    border: none;
+    border-radius: 50px;
+    display: inline;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    font-size: 15px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#barraBuscar:focus {
+    opacity: 1;
+}
+
+#ajusteImagemLupa {
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    right: 50px;
+}
+
+#caixaMenu {
+    height: 50px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textoMenu {
+    color: white;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.textoMenu:hover {
+    color: rgb(180, 180, 180);
+}
+
+.textoMenu:active {
+    color: gray;
+}
+
+.textoMenu p {
+    cursor: pointer;
+}
+
+.textDecoration {
+    text-decoration: none;
+}
