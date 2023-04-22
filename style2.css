@@ -24,8 +24,14 @@ body {
     margin-top: 30px;
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     font-family: 'Exo 2', sans-serif;
+}
+
+#tituloLogin p {
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .ajusteBarra {
@@ -81,14 +87,15 @@ body {
     font-size: 20px;
     background-color: gray;
     font-family: 'Exo 2', sans-serif;
+    transition: all 0.2s;
 }
 
 #botaoLogar:hover {
     background-color: rgb(99, 98, 98);
-    transition: 0.2s;
+    color: white;
 }
 
 #botaoLogar:active {
     background-color: rgb(80, 79, 79);
-    transition: 0.2s;
+    color: white;
 }
