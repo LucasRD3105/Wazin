@@ -24,6 +24,7 @@ body {
     font-weight: bolder;
     cursor: pointer;
     font-family: 'Exo 2', sans-serif;
+    margin-right: 40px;
 }
 
 #fundoDoTitulo {
@@ -41,9 +42,9 @@ body {
 #ajusteBotaoLogar {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: left;
     padding-top: 20px;
-    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #botaoLogin {
