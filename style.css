@@ -23,6 +23,7 @@ body {
     font-size: 70px;
     font-weight: bolder;
     cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
 }
 
 #fundoDoTitulo {
@@ -54,6 +55,8 @@ body {
     width: 130px;
     opacity: 0.8;
     transition: all 0.2s;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
 }
 
 #botaoLogin:hover {
@@ -76,6 +79,8 @@ body {
     width: 130px;
     opacity: 0.8;
     transition: all 0.2s;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
 }
 
 #botaoInscreva-se:hover {
@@ -89,17 +94,19 @@ body {
 }
 
 #barraBuscar {
-    margin-top: 30px;
+    margin-top: 20px;
     height: 40px;
     width: 700px;
     border: none;
     border-radius: 50px;
     display: inline;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     padding-left: 25px;
     font-size: 15px;
     opacity: 0.6;
     transition: opacity 0.3s ease-in-out;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
 }
 
 #barraBuscar:focus {
@@ -127,6 +134,7 @@ body {
     font-weight: bold;
     margin-left: 120px;
     margin-right: 120px;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .textoMenu:hover {

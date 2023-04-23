@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(imagem\ login.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#caixaPrincipal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 700px;
+    width: 1000px;
+    border-radius: 20px;
+}
