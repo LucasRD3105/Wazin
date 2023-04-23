@@ -13,7 +13,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    height: 380px;
+    height: 580px;
     width: 400px;
     border-radius: 20px;
 }
@@ -98,4 +98,79 @@ body {
 #botaoLogar:active {
     background-color: rgb(80, 79, 79);
     color: white;
+}
+
+#ajusteNaoTenhoConta {
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    cursor: pointer;
+}
+
+#textDecoration {
+    text-decoration: none;
+    color: inherit;
+}
+
+#botaoGoogle {
+    font-family: 'Exo 2', sans-serif;
+    border: none;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#botaoGoogle:hover {
+    background-color: rgb(224, 222, 222);
+}
+
+#botaoGoogle:active {
+    opacity: 0.7;
+}
+
+
+#ajusteImagemGoogle {
+    height:20px;
+    position: relative;
+    top: 3px;
+    right: 15px;
+}
+
+#botaoFacebook {
+    background-color: rgb(46, 46, 150);
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#botaoFacebook:hover {
+    background-color: rgb(36, 36, 117);
+}
+
+#botaoFacebook:active {
+    opacity: 0.9;
+}
+
+#ajusteImagemFacebook {
+    height:20px;
+    position: relative;
+    top: 3px;
+    right: 15px;
+}
+
+#ajusteBotoesLogarCom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
