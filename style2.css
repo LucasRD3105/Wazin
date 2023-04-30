@@ -12,7 +12,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background: linear-gradient(rgb(206, 206, 206), white, rgb(206, 206, 206));
     height: 580px;
     width: 400px;
     border-radius: 20px;
@@ -45,6 +45,7 @@ body {
     width: 300px;
     height: 20px;
     font-size: 16px;
+    padding-left: 7px;
 }
 
 .ajusteTextosLogin {

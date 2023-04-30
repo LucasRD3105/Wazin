@@ -12,9 +12,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
-    height: 800px;
-    width: 1000px;
+    background: linear-gradient(rgb(206, 206, 206), white, rgb(206, 206, 206));
+    height: 760px;
+    width: 620px;
     border-radius: 20px;
 }
 
@@ -42,11 +42,62 @@ body {
 }
 
 .ajuste2Barra {
-    width: 300px;
+    width: 500px;
     height: 20px;
     font-size: 16px;
+    padding-left: 7px;
 }
 
+.ajusteTextosInscreva-se {
+    margin-left: 54px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#ajusteBotaoContinuar {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+#botaoContinuar {
+    margin-top: 5px;
+    width: 310px;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: gray;
+    font-family: 'Exo 2', sans-serif;
+    transition: all 0.2s;
+}
+
+#botaoContinuar:hover {
+    background-color: rgb(99, 98, 98);
+    color: white;
+}
+
+#botaoContinuar:active {
+    background-color: rgb(80, 79, 79);
+    color: white;
+}
+
+#ajusteJaTenhoConta {
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#textDecoration {
+    text-decoration: none;
+    color: inherit;
+}
 
 #botaoGoogle {
     font-family: 'Exo 2', sans-serif;
@@ -104,4 +155,11 @@ body {
     position: relative;
     top: 3px;
     right: 15px;
+}
+
+#ajusteBotoesLogarCom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

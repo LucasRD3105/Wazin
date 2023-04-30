@@ -14,42 +14,54 @@
 <body>
     <div id="caixaPrincipal">
 
-        <p id="tituloInscreva-se">INSCREVA-SE</p>
+        <label for="barraTexto" id="tituloInscreva-se">
+            <p>INSCREVA-SE</p>
+        </label>
 
-        <p>NOME COMPLETO</p>
+        <p class="ajusteTextosInscreva-se">NOME COMPLETO</p>
         <div class="ajusteBarra">
-            <input class="ajusteBarra2" type="text" name="text">
+            <input id="barraTexto" class="ajuste2Barra" type="text" name="text">
         </div>
 
-        <p>E-MAIL</p>
+        <p class="ajusteTextosInscreva-se">E-MAIL</p>
         <div class="ajusteBarra">
-            <input class="ajusteBarra2" type="email" name="email">
+            <input class="ajuste2Barra" type="email" name="email" placeholder="exemplo@gmail.com">
         </div>
 
-        <p>CONFIRMAÇÃO DO E-MAIL</p>
+        <p class="ajusteTextosInscreva-se">CONFIRMAÇÃO DO E-MAIL</p>
         <div class="ajusteBarra">
-            <input class="ajusteBarra2" type="email" name="email">
+            <input class="ajuste2Barra" type="email" name="email" placeholder="exemplo@gmail.com">
         </div>
 
-        <p>SENHA</p>
+        <p class="ajusteTextosInscreva-se">SENHA</p>
         <div class="ajusteBarra">
-            <input class="ajusteBarra2" type="password" name="password">
+            <input class="ajuste2Barra" type="password" name="password">
         </div>
 
-        <p>CONFIRMAÇÃO DA SENHA</p>
+        <p class="ajusteTextosInscreva-se">CONFIRMAÇÃO DA SENHA</p>
         <div class="ajusteBarra">
-            <input class="ajusteBarra2" type="password" name="password">
+            <input class="ajuste2Barra" type="password" name="password">
         </div>
 
-        <p>Já tenho conta</p>
+        <div id="ajusteBotaoContinuar">
+            <a href="index.html"><button id="botaoContinuar">CONTINUAR</button></a>
+        </div>
 
-        <button>CONTINUAR</button>
+        <div id="ajusteJaTenhoConta">
+            <a id="textDecoration" href="index2.html">
+                <p>Já tenho conta</p>
+            </a>
+        </div>
+
         <hr>
 
-        <a href="https://www.google.com" target="_blank"><button id="botaoGoogle"><img id="ajusteImagemGoogle"
-                    src="Logo Google.avif">Continuar com Google</button></a><br>
-        <a href="https://www.facebook.com" target="_blank"><button id="botaoFacebook"><img id="ajusteImagemFacebook"
-                    src="Logo Facebook.png">Continuar com Facebook</button></a>
+        <div id="ajusteBotoesLogarCom">
+            <a href="https://www.google.com" target="_blank"><button id="botaoGoogle"><img id="ajusteImagemGoogle"
+                        src="Logo Google.avif">Continuar com Google</button></a><br>
+            <a href="https://www.facebook.com" target="_blank"><button id="botaoFacebook"><img id="ajusteImagemFacebook"
+                        src="Logo Facebook.png">Continuar com Facebook</button></a>
+        </div>
+        
     </div>
 
 
