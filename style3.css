@@ -13,7 +13,95 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    height: 700px;
+    height: 800px;
     width: 1000px;
     border-radius: 20px;
+}
+
+#tituloInscreva-se {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#tituloInscreva-se p {
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.ajusteBarra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ajuste2Barra {
+    width: 300px;
+    height: 20px;
+    font-size: 16px;
+}
+
+
+#botaoGoogle {
+    font-family: 'Exo 2', sans-serif;
+    border: none;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+#botaoGoogle:hover {
+    background-color: rgb(224, 222, 222);
+}
+
+#botaoGoogle:active {
+    opacity: 0.7;
+}
+
+
+#ajusteImagemGoogle {
+    height:20px;
+    position: relative;
+    top: 3px;
+    right: 15px;
+}
+
+#botaoFacebook {
+    background-color: rgb(46, 46, 150);
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+#botaoFacebook:hover {
+    background-color: rgb(36, 36, 117);
+}
+
+#botaoFacebook:active {
+    opacity: 0.9;
+}
+
+#ajusteImagemFacebook {
+    height:20px;
+    position: relative;
+    top: 3px;
+    right: 15px;
 }
